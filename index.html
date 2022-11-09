@@ -1,164 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bienvenido a Vapor</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <div class="section-container header-container">
-        <header class="header">
-            <div class="logo-container">
-                <img src="./assets/VaporLogo2.svg" alt="VaporLogo">
-            </div>
-            <nav class="navbar">
-                <i class="fa-solid fa-circle-chevron-down"></i>
-                <ul class="navbar-list">
-                    <li class="profile-item">Login</li>
-                    <li class="profile-item">Register</li>
-                    <li class="profile-item"><i class="fa-solid fa-cart-shopping"></i></li>
-                    <li class="profile-item"><i class="fa-solid fa-hand-holding-dollar"></i> 15.000$ </li>
-                </ul>
-            </nav>
-        </header>
-    </div>
-    <div class="section-container" id="hero">
-        <section class="section">
-            <div class="hero-description">
-                <!-- Choreado de GOG.com -->
-                <h1>"We care about games"</h1>
-                <h2>VaporGames is a digital distribution platform with a curated selection of games, a "you buy it, you own it" philosophy, and utmost care about customers.</h2>
-                <button type="submit" class="btn btn-login">Release the Vapor</button>
-            </div>
-        </section>
-    </div>
-    <div class="section-container" id="upcoming">
-        <section class="section">
-            <div class='slider-container'>
-                <div class="slider-title">
-                    <h2>"Whats next ?"</h2>
-                    <p>Find the most exciting upcoming games and their release date</p>
-                </div>
-                <div class="slider">
-                    <div class="mySlides">
-                        <img src="./assets/Upcoming1.jpg">
-                        <p class="caption">Dead Space (Remake) - January 27</p>
-                      </div>
-                      <div class="mySlides">
-                        <img src="./assets/Upcoming2.jpg">
-                        <p class="caption">Hogwarts Legacy - February 10</p>
-                      </div>
-                      <div class="mySlides">
-                        <img src="./assets/Upcoming3.jpg">
-                        <p class="caption">Resident Evil 4 Remake - March 24</p>
-                      </div>
-                      <div class="mySlides">
-                        <img src="./assets/Upcoming4.jpg">
-                        <p class="caption">The Legend of Zelda: Tears of the Kingdom - May 12</p>
-                      </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="section-container" id="filters">
-        <section class="section">
-            <div class="filter">
-                <div class="filter-title">
-                    <h2>Categories</h2>
-                </div>
-                <div class="filter-cards">
-                    <div class="item-filter"  data-category="action">
-                        <div class="filter-info">
-                            <div class="filter-img">
-                                <img src="./assets/action.png" alt="" class="filter-img">
-                            </div>
-                            <h3>Action</h3>
-                        </div>
-                    </div>
-                    <div class="item-filter" data-category="adventure">
-                        <div class="filter-info">
-                            <div class="filter-img">
-                                <img src="./assets/adventure.png" alt="" class="filter-img">
-                            </div>
-                            <h3>Adventure</h3>
-                        </div>
-                    </div>
-                    <div class="item-filter" data-category="racing">
-                        <div class="filter-info">
-                            <div class="filter-img">
-                                <img src="./assets/racing.png" alt="" class="filter-img">
-                            </div>
-                            <h3>Racing</h3>
-                        </div>
-                    </div>
-                    <div class="item-filter" data-category="platformer">
-                        <div class="filter-info">
-                            <div class="filter-img">
-                                <img src="./assets/plataformer.png" alt="" class="filter-img">
-                            </div>
-                            <h3>Platformer</h3>
-                        </div>
-                    </div>
-                    <div class="item-filter" data-category="indie">
-                        <div class="filter-info">
-                            <div class="filter-img">
-                                <img src="./assets/indie.png" alt="" class="filter-img">
-                            </div>
-                            <h3>Indie</h3>
-                        </div>
-                    </div>
-                    <div class="item-filter" data-category="shooter">
-                        <div class="filter-info">
-                            <div class="filter-img">
-                                <img src="./assets/shooter.png" alt="" class="filter-img">
-                            </div>
-                            <h3>Shooter</h3>
-                        </div>
-                    </div>
-                    <div class="item-filter" data-category="strategy">
-                        <div class="filter-info">
-                            <div class="filter-img">
-                                <img src="./assets/strategy.png" alt="" class="filter-img">
-                            </div>
-                            <h3>Strategy</h3>
-                        </div>
-                    </div>
-                    <div class="item-filter" data-category="rpg">
-                        <div class="filter-info">
-                            <div class="filter-img">
-                                <img src="./assets/rpg.png" alt="" class="filter-img">
-                            </div>
-                            <h3>RPG</h3>
-                        </div>
-                    </div>
-                    <div class="item-filter" data-category="casual">
-                        <div class="filter-info">
-                            <div class="filter-img">
-                                <img src="./assets/casual.png" alt="" class="filter-img">
-                            </div>
-                            <h3>Casual</h3>
-                        </div>
-                    </div>
-                </div>                
-            </div>
-        </section>
-    </div>
-    <div class="section-container" id="games">
-        <section class="section">
-            <div class="game-box"></div>
-        </section>
-    </div>
-    <footer>
-        <div class="section-container">
-            <section class="section" id="footer">
-                <p class="footer-info">© 2022 Vapor Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
-                    VAT included in all prices where applicable.</p>
-            </section>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <img src="./assets/VaporLogo2.svg" alt="VaporLogo" />
+      </div>
+      <nav class="navbar">
+        <div class="menu-label">
+          <i class="fa-solid fa-circle-chevron-down"></i>
         </div>
+
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="#hero">Home</a></li>
+          <li><a class="navbar-link" href="#games">Games</a></li>
+          <li><a class="navbar-link" href="./login.html">Login</a></li>
+          <li><a class="navbar-link" href="./register.html">Register</a></li>
+        </ul>
+
+        <div class="cart-label">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <div class="cart">
+          <h2>Your Games</h2>
+          <div class="cart-container"></div>
+          <span class="divider"></span>
+          <div class="cart-total">
+            <p>Total:</p>
+            <span class="total">0.00 USD</span>
+          </div>
+          <button class="btn-buy">Buy</button>
+          <button class="btn-delete">Clear Cart</button>
+        </div>
+
+        <div class="overlay"></div>
+      </nav>
+    </header>
+    <main>
+      <div class="section-container" id="hero">
+        <section class="section">
+          <div class="hero-description">
+            <!-- Choreado de GOG.com -->
+            <h1>"We care about games"</h1>
+            <h2>
+              VaporGames is a digital distribution platform with a curated
+              selection of games, a "you buy it, you own it" philosophy, and
+              utmost care about customers.
+            </h2>
+            <button type="submit" class="btn btn-login">
+              Release the Vapor
+            </button>
+          </div>
+        </section>
+      </div>
+      <div class="section-container" id="upcoming">
+        <section class="section">
+          <div class="slider-container">
+            <div class="slider-title">
+              <h2>"Whats next ?"</h2>
+              <p>
+                Find the most exciting upcoming games and their release date
+              </p>
+            </div>
+            <div class="slider">
+              <div class="mySlides">
+                <img src="./assets/Upcoming1.jpg" />
+                <p class="caption">Dead Space (Remake) - January 27</p>
+              </div>
+              <div class="mySlides">
+                <img src="./assets/Upcoming2.jpg" />
+                <p class="caption">Hogwarts Legacy - February 10</p>
+              </div>
+              <div class="mySlides">
+                <img src="./assets/Upcoming3.jpg" />
+                <p class="caption">Resident Evil 4 Remake - March 24</p>
+              </div>
+              <div class="mySlides">
+                <img src="./assets/Upcoming4.jpg" />
+                <p class="caption">
+                  The Legend of Zelda: Tears of the Kingdom - May 12
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="section-container" id="filters">
+        <section class="section">
+          <div class="filter">
+            <div class="filter-title">
+              <h3>Categories</h3>
+            </div>
+            <div class="categories">
+              <button class="category active">All</button>
+              <button class="category" data-category="action">Action</button>
+              <button class="category" data-category="adventure">
+                Adventure
+              </button>
+              <button class="category" data-category="casual">Casual</button>
+              <button class="category" data-category="indie">Indie</button>
+              <button class="category" data-category="racing">Racing</button>
+              <button class="category" data-category="rpg">RPG</button>
+              <button class="category" data-category="platformer">
+                Platformer
+              </button>
+              <button class="category" data-category="shooter">Shooter</button>
+              <button class="category" data-category="strategy">
+                Strategy
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="section-container" id="games">
+        <section class="section">
+          <div class="game-box"></div>
+        </section>
+        <button class="btn-load">More</button>
+      </div>
+    </main>
+    <footer>
+      <div class="section-container">
+        <section class="section" id="footer">
+          <p class="footer-info">
+            © 2022 Vapor Corporation. All rights reserved. All trademarks are
+            property of their respective owners in the US and other countries.
+            VAT included in all prices where applicable.
+          </p>
+        </section>
+      </div>
     </footer>
-    <script src="./assets/js/main.js"></script>
-</body>
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
 </html>
