@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/login.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="logo-container">
+          <a href="./index.html">
+            <img src="./assets/VaporLogo.svg" alt="VaporLogo" />
+          </a>
+        </div>
+      </header>
+      <div class="container">
+        <div class="login-container">
+          <form id="form">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              autocomplete="off"
+            />
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter your password"
+            />
+            <div class="btn-container">
+              <input type="submit" value="LogIn" class="btn btn-login" />
+            </div>
+            <a href="./register.html"
+              >You do not have an account? Sign up here.</a
+            >
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="section-container">
+        <section class="section" id="footer">
+          <p class="footer-info">
+            © 2022 Vapor Corporation. All rights reserved. All trademarks are
+            property of their respective owners in the US and other countries.
+            VAT included in all prices where applicable.
+          </p>
+        </section>
+      </div>
+    </footer>
+    <script src="./assets/js/validation.js"></script>
+  </body>
+</html>
