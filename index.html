@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bienvenido a Vapor</title>
+    <title>Welcome to Vapor</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="logo-container">
         <img src="./assets/VaporLogo2.svg" alt="VaporLogo" />
       </div>
@@ -58,9 +58,11 @@
               selection of games, a "you buy it, you own it" philosophy, and
               utmost care about customers.
             </h2>
-            <button type="submit" class="btn btn-login">
-              Release the Vapor
-            </button>
+            <a href="./register.html">
+              <button type="submit" class="btn btn-login">
+                Release the Vapor
+              </button>
+            </a>
           </div>
         </section>
       </div>
@@ -129,6 +131,9 @@
         </section>
         <button class="btn-load">More</button>
       </div>
+      <div class="top-btn">
+        <a href="#hero"><i class="fa-regular fa-square-caret-up"></i></a>
+      </div>
     </main>
     <footer>
       <div class="section-container">
@@ -141,6 +146,7 @@
         </section>
       </div>
     </footer>
+    <div class="add-modal"></div>
     <script src="./assets/js/data.js"></script>
     <script src="./assets/js/index.js"></script>
   </body>
